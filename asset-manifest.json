@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/smartwallet/static/css/main.fd9d341b.css",
+    "main.js": "/smartwallet/static/js/main.8aa35d83.js",
+    "static/js/787.f7c9db00.chunk.js": "/smartwallet/static/js/787.f7c9db00.chunk.js",
+    "static/media/logo.svg": "/smartwallet/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/smartwallet/index.html",
+    "main.fd9d341b.css.map": "/smartwallet/static/css/main.fd9d341b.css.map",
+    "main.8aa35d83.js.map": "/smartwallet/static/js/main.8aa35d83.js.map",
+    "787.f7c9db00.chunk.js.map": "/smartwallet/static/js/787.f7c9db00.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd9d341b.css",
+    "static/js/main.8aa35d83.js"
+  ]
+}
