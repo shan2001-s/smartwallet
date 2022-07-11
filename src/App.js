@@ -37,11 +37,12 @@ function App() {
   // }, [account])
 
   const config = {
-    networks: [Rinkeby,Kovan, Ropsten,Goerli],
+    networks: [Rinkeby,Kovan, Ropsten,Goerli,Mainnet],
  
     readOnlyChainId: Rinkeby.chainId,
     readOnlyUrls: {
-      [Mainnet.chainId]: getDefaultProvider('mainnet'),
+    
+      [Mainnet.chainId]: 'https://mainnet.infura.io/v3/969d43ff196f4b9c8649bd3e7e4a1e96',
       [Rinkeby.chainId]: 'https://rinkeby.infura.io/v3/969d43ff196f4b9c8649bd3e7e4a1e96',
       [Kovan.chainId]:'https://kovan.infura.io/v3/969d43ff196f4b9c8649bd3e7e4a1e96',
       [Ropsten.chainId]:'https://ropsten.infura.io/v3/969d43ff196f4b9c8649bd3e7e4a1e96',
